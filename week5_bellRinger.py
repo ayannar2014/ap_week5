@@ -58,21 +58,21 @@
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
-text= "MAY THE FORCE BE WITH YOU" 
-print(text.lower())
-print(text.upper())
+# text= "MAY THE FORCE BE WITH YOU" 
+# print(text.lower())
+# print(text.upper())
 
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
 
-motto= ["Make", "haste", "slowly."]
+# motto= ["Make", "haste", "slowly."]
 
 # a. Convert the list into a single string.
-joined_motto = ' '.join(motto)
-print(joined_motto) 
+# joined_motto = ' '.join(motto)
+# print(joined_motto) 
 # b. Now, split the string at every occurrence of the letter 'a'.
-joined_motto_split = joined_motto.split('a')
-print(joined_motto_split) 
+# joined_motto_split = joined_motto.split('a')
+# print(joined_motto_split) 
 #output makes ['M', 'ke h', 'ste slowly.']
 
 # Replacing Words:
@@ -80,9 +80,14 @@ print(joined_motto_split)
 # a. Replace "busy" with "distracted".
 # b. Replace "plans" with "mistakes".
 
+sentence ="Life is what happens when you are busy making other plans."
+replaced_sentence = print(sentence.replace("busy", "distracted").replace("plans", "mistakes"))
+
+
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
+repeated_word = print("Iteration "* 7)
 
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
