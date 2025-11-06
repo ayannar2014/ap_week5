@@ -5,11 +5,13 @@
 # b. Retrieve the second to last character.
 # c. Find the first occurrence of the letter 'c'.
 
-magic = 'abracadabra'
-fifth_char = print (magic [4])
-second_to_last_char = print (magic[-2])
-first_c_index = print(magic.index('r'))
-last_a_index = print(magic.rindex('a'))
+# magic = 'abracadabra'
+# fifth_char = print (magic [4])
+# second_to_last_char = print (magic[-2])
+# first_c_index = print(magic.index('c'))
+# # find the first occurrence of letter 'c'...first time it appears is four 
+# last_a_index = print(magic.rindex('a'))
+# # find the last occurrence of the letter 'a'...the r in "rindex" stahds for reverse 
 
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
@@ -17,15 +19,38 @@ last_a_index = print(magic.rindex('a'))
 # b. Extract every second letter starting from 'a' to 'm'.
 # c. Reverse the entire string using slicing.
 
+# alphabet = 'abcdefghijklmonopqrstuvwxyz'
+# hij = print (alphabet.index('hij'))
+# hij2 = print (alphabet[7:10])
+# m_index = print(alphabet.index('m'))
+# every_second = print (alphabet[0:13:2])
+# reversed_alphabet = print(alphabet[0: :-1])
+
+# dream_speech = 'When we allow freedom to ring—when we let it ring from every city and every hamlet, from every state and every city, we will be able to speed up that day when all of Gods children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual, Free at last, Free at last, Great God a-mighty, We are free at last.'
+# reversed_alphabet = print(dream_speech[: :-1])
+
+
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
+# famous_quote = 'Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy'
+# john_f_kennedy = print(famous_quote.find("John F. Kennedy"))
+# extracted_name = print(famous_quote[83: ])
 
 # Manipulating Words:
-# Given the string info = "Python is fun. Fun is good. Good is subjective.",
+# Given the string info = "Python is fun. Fun is good. Good is subjective."
 # a. Extract the word 'subjective' without knowing its exact position.
+info= 'Python is fun. Fun is good. Good is subjective.'
+subjective = print(info.find("subjective"))
+extracted_name = print (info[36: ])
 # b. Extract every third word.
+third_letter = print(info[::3])
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
+words = info.split()
+print(words)
+reversed_words = ' '.join(reversed(words))
+print(reversed_words)
+
 
 # Problem Set 3: String Methods
 # Upper & Lower:
