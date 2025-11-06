@@ -63,7 +63,7 @@
 # print(text.upper())
 
 # String Joining and Splitting:
-# Given the list motto = ["Make", "haste", "slowly."],
+# Given the list motto = ["Make", "haste", "slowly."]
 
 # motto= ["Make", "haste", "slowly."]
 
@@ -91,12 +91,17 @@
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
 
-word= "moonlight"
-quote= "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+# word= "moonlight"
+# quote= "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
 
-word_in_quote = print( word in quote)
+# word_in_quote = print( word in quote)
 #output is false
 
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
+phrase = "Supercalifragilisticexpialidocious"
+length_of_phrase = print(len(phrase)) 
+#the output is 34
+count_of_i = print(phrase.count('i'))
+#there are 7 i in the phrase
